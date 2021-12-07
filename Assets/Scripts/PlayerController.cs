@@ -11,14 +11,14 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI textMeshPro;
 
 
-    // Start is called before the first frame update
+
     void Start()
     {
         screenMessage = "Pulsa cualquiera de las cuatro flechas";
         textMeshPro.text = screenMessage;
     }
 
-    // Update is called once per frame
+ 
     void Update()
     {
         ShowMessage(screenMessage, KeyCode.RightArrow);
